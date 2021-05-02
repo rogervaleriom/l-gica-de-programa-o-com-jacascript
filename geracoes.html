@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var idadeMedia = 28;
+    var anoAtual = 2020;
+    var periodo = anoAtual - 1500;
+    var geracoes = periodo / idadeMedia;
+
+    mostra("Geracoes: " + Math.round(geracoes));
+    
+
+</script>
